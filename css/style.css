@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: 'RobotoB';
+    src: url(../fonts/Robotobold.ttf);
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1.2;
+}
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F9FFD8;
+}
+
+.head{
+    background: url("../img/5.jpg") no-repeat;
+    background-size: 100%;
+    height: 600px;
+    width: 1366px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    margin-bottom: 40px;
+    color:white;
+    font-family: 'RobotoB', sans-serif;
+}
+
+
+
+.tel{
+    text-align: start;
+    margin-left: 40px;
+    padding-top:40px;
+    font-size: 30px;
+}
+
+.head_text{
+    text-align: center;
+    font-size: 60px;
+    max-width: 1200px;
+    margin:90px auto;
+}
+
+.mail{
+    text-align: end;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    margin:40px 40px 0;
+}
+
+.glav{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1EB059;
+    font-size: 40px;
+}
+
+.p_text{
+    text-align: center;
+    font-size: 23px;
+    color:#2FA951;
+    font-weight: 900;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 3px solid #2FA951;
+}
+
+.text_footer{
+    text-align: end;
+    margin-right: 40px;
+    font-family: 'RobotoB', sans-serif;
+    color: #2FA951;
+    font-size: 18px;
+}
+
